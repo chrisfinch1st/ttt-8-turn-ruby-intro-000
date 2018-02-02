@@ -3,7 +3,12 @@ def turn(board)
   puts "Please enter 1-9:"
   input=gets.strip
   index=input_to_index(input)
-  valid_move?(board,index)
+  if valid_move?(board,index)
+    move(board,input)
+    display_board(board)
+  end
+end
+    
 
 
 #  display_board(board)
@@ -15,7 +20,6 @@ def turn(board)
 #  else
 #    puts "Invalid move, try again"
 #  end
-end
 
 def input_to_index(input)
   input.to_i-1
