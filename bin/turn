@@ -3,7 +3,7 @@ require_relative '../lib/turn.rb'
 
 # Code your CLI Here
 puts "Welcome to Tic Tac Toe!"
-board = [" "," "," "," "," "," "," "," "," "]
+board = [" "," "," "," ","X"," "," "," "," "]
 display_board(board)
 
 turn(board)
