@@ -9,7 +9,7 @@ def turn(board)
   else
     puts "Invalid Move, try again"
     input=gets.strip
-    
+
 
   end
 end
