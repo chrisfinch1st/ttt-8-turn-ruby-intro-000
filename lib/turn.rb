@@ -16,7 +16,7 @@ def turn(board)
 end
 
 def input_to_index(input)
-  input=input.to_i-1
+  input.to_i-1
   puts "#{input}"
 end
 
