@@ -8,8 +8,7 @@ def turn(board)
     display_board(board)
   else
     puts "Invalid Move, try again"
-    input=gets.strip
-
+    turn(board)
 
   end
 end
